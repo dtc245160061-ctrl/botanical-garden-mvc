@@ -1,0 +1,14 @@
+@model List<GardenApp.Section>
+
+<h2>Sections</h2>
+
+@foreach (var section in Model)
+{
+    <h3>@section.Name</h3>
+    <ul>
+        @foreach (var plant in section.Plants)
+        {
+            <li>@plant.Name - @plant.Species</li>
+        }
+    </ul>
+}
