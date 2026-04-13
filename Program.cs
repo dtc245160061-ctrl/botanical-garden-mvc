@@ -1,9 +1,8 @@
-using GardenApp.Data;
 using Microsoft.EntityFrameworkCore;
+using GardenApp.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<GardenContext>(options =>
@@ -11,7 +10,6 @@ builder.Services.AddDbContext<GardenContext>(options =>
 
 var app = builder.Build();
 
-// Configure pipeline
 app.UseRouting();
 
 app.MapControllerRoute(
