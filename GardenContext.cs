@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using GardenApp.Models;
 
-namespace GardenApp.Data
+namespace GardenApp
 {
     public class GardenContext : DbContext
     {
