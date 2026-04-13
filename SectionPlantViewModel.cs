@@ -1,7 +1,4 @@
-using System.Collections.Generic;
-using GardenApp.Models;
-
-namespace GardenApp.ViewModels
+namespace GardenApp
 {
     public class SectionPlantViewModel
     {
