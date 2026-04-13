@@ -1,16 +1,13 @@
-# Botanical Garden MVC
+## Architecture
 
-Student: Son Dep Trai  
-ID: dtc245160061  
+- Models: Section, Plant
+- DbContext: GardenContext
+- ViewModel: SectionPlantViewModel
+- Controller: SectionController
+- View: Section/Index.cshtml
 
 ## Features
-- CRUD Plant
-- ASP.NET Core MVC
-- Entity Framework (Code First)
-
-## Model
-Plant:
-- PlantId
-- Name
-- Species
-- Height
+- CRUD structure
+- One-to-many relationship (Section - Plant)
+- Entity Framework Core (Code First)
+- Navigation properties
