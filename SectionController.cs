@@ -1,9 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using GardenApp.Data;
 using System.Linq;
 
-namespace GardenApp.Controllers
+namespace GardenApp
 {
     public class SectionController : Controller
     {
